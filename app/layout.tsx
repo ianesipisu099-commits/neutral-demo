@@ -13,21 +13,13 @@ export default function RootLayout({
 }) {
   return (
 <html lang="en">
-      <body className={`${inter.className} min-h-screen bg-white text-gray-900`}>
-        <SiteHeader />
 
-        <main className="min-h-[70vh]">
-          {children}
-        </main>
-
-        <SiteFooter />
-        <SiteHeader />
-<main className="min-h-[70vh]">{children}</main>
-<SiteFooter />
-
-<WhatsAppFloat />
-
-      </body>
+<body className="min-h-screen bg-white text-gray-900">
+  <SiteHeader />
+  <main className="min-h-[70vh]">{children}</main>
+  <SiteFooter />
+  <WhatsAppFloat />
+  </body>
     </html>
   );
 }
