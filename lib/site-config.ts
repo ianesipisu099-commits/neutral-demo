@@ -22,7 +22,7 @@ export const siteConfig = {
 
   brand: {
     logo: "/images/brand/logo.png",
-    gate: "/images/hero/gate.png",
+    gate: "/image/hero/gate.png",
   },
 
   downloads: {
